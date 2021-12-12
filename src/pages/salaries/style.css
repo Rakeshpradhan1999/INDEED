@@ -1,0 +1,81 @@
+.salary-top-search {
+  position: relative;
+  overflow: hidden;
+}
+.salary-top-search .top-image {
+  position: absolute;
+  height: 100%;
+  min-height: 326px;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.salary-top-search .top-image img {
+  height: 100%;
+}
+.salary-top-search h1 {
+  font-size: 1.75rem;
+}
+.salaries-search-Box {
+  border-top: 10px solid #9bb1f0;
+  border-radius: 8px;
+  z-index: 99;
+  position: relative;
+}
+.salaries-search-wrapper {
+  border: 1px solid #949494;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5625rem;
+  padding-bottom: 0.5625rem;
+  border-radius: 0.5rem;
+}
+@media (max-width: 1024px) {
+  .salary-top-search .top-image {
+    min-height: 100px;
+    height: 300px;
+    right: 0;
+    bottom: 0;
+    top: auto;
+  }
+  .salaries-search-Box button {
+    width: 100%;
+  }
+}
+.salaries-search-wrapper input {
+  width: 28ch;
+}
+.salaries-search-wrapper span svg {
+  color: #949494;
+  font-size: 20px;
+}
+
+.dropdown-box {
+  max-width: 343px;
+  width: 100%;
+  position: relative;
+  border-radius: 100px;
+  border: 1px solid #ccc;
+}
+.industries-card {
+  transition: all 0.3s;
+}
+.industries-card:hover {
+  box-shadow: rgb(0 0 0 / 10%) 5px 5px 10px -5px;
+}
+.estimate-btn button {
+  background-color: #085ff7;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  color: #ffffff;
+  font-size: 16px;
+
+  line-height: 1.5;
+}
+@media (max-width: 768px) {
+  .estimate-btn button {
+    width: 100%;
+  }
+}

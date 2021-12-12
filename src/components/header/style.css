@@ -1,0 +1,22 @@
+.divider {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 0.0625rem;
+  height: 1.5rem;
+  background-color: #d4d2d0;
+  margin-top: 0;
+}
+
+.menu-divider {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  border-bottom: 0.5rem solid rgb(243, 242, 241);
+  border-top-color: rgb(243, 242, 241);
+  border-right-color: rgb(243, 242, 241);
+  border-left-color: rgb(243, 242, 241);
+}
+.mobile-menu {
+  z-index: 9999;
+}
